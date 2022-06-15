@@ -1,0 +1,14 @@
+MODEL:
+    INPUT_SIZE: [32, 32]  # (width, height)
+    NUM_CLASSES: 3 # binary or ternary
+    LEARNING_RATE: 2e-5
+    TRAIN_EPOCHS: 1
+    NUM_FOLDS: 1
+
+DATASET:
+    DATA_ROOT_INPUT: "data/input"
+    DATA_ROOT_OUTPUT: "data/output"
+    DATASET_NAME: "spgc"
+    IMAGES_PATH: "/home/guilherme/Documents/noa/cidia19/data/spgc/views64"
+    AXIS: [1, 2]
+

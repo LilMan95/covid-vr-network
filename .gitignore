@@ -1,0 +1,6 @@
+data/output/
+models/
+experiments/
+logs/
+src/__pycache__/
+
